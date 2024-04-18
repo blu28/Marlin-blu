@@ -78,6 +78,9 @@
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
 #define CUSTOM_STATUS_SCREEN_IMAGE
 
+// blu - Supress the warning about SENSORLESS_HOMING.
+#define DIAG_JUMPERS_REMOVED
+
 /**
  * Select the serial port on the board to use for communication with the host.
  * This allows the connection of wireless adapters (for instance) to non-default port pins.
