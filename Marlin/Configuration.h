@@ -709,9 +709,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  19.56
-    #define DEFAULT_Ki   1.24
-    #define DEFAULT_Kd  77.27
+    #define DEFAULT_Kp  20.61 // Set from PID test, June 2024
+    #define DEFAULT_Ki   1.29 // Set from PID test, June 2024
+    #define DEFAULT_Kd  82.43 // Set from PID test, June 2024
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
